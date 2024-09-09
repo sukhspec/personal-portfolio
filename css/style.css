@@ -566,7 +566,7 @@ nav ul a:hover{
     background-color:var(--l-dark);
     color: white;
     border: none;
-    border-radius: 50%;
+    border-radius:12px;
     text-align: center;
     line-height: 50px;
     font-size: 24px;
@@ -576,5 +576,6 @@ nav ul a:hover{
     transition: opacity 0.3s, transform 0.3s;
 }
 #back-to-top:hover {
-    background-color: #69b2ff;
+    background-color: var(--dark);
+    
 }
